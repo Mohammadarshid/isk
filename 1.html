@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 1 how to find  duplicate elements in array in javascript
+
+        const arrNumber = [2, 4, 5, 7, 8, 9, 2, 4, 6, 5];
+
+        const dul = arrNumber.filter((ele, index, arr) => arr.indexOf(ele) !== index)
+        console.log(dul);
+    </script>
+</body>
+
+</html>
